@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+header{
+    background: linear-gradient(to bottom,rgb(119, 217, 230),white);
+}
+.heading{
+    display: flex;
+    align-items: center;
+}
+.heading img{
+    height: 60px;
+    width: 70px;
+    margin-left: 35%;
+    margin-top: 50px;
+    /* font-size: 50px; */
+    border-radius: 60px;
+}
+.heading h1{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-family: cursive;
+    margin-bottom: 12px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.h1 h1{
+    margin-left: 25%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.h1 p{
+    margin-top: 25px;
+    margin-left: 31%;
+    font-size: 23px;
+}
+header .email{
+    margin-top: 95px;
+    margin-left: 35%;
+}
+.email input{
+    padding: 5px;
+    width: 350px;
+    height: 50px;
+    border-radius: 15px 0 0 15px;
+    font-size: 20px;
+}
+.email input:hover{
+    cursor: text;
+}
+.email button{
+    padding: 5px;
+    height: 50px;
+    width: 100px;
+    border-radius: 0 15px 15px 0;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+.email button:hover{
+    cursor: pointer;
+    background-color: darkgray;
+}
+header .p{
+    margin-top: 25px;
+    width: 50%;
+    /* border: 2px solid red; */
+    margin-left: 25%;
+}
+.p p{
+    font-size: 18px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.video img{
+    margin-left: 31%;
+    margin-top: 145px;
+    height: 500px;
+    width: 600px;
+    border-radius: 500px;
+}
+.steps{
+    /* width: 80%; */
+    margin-top: 115px;
+    background-color:rgb(115, 115, 115);
+    padding-top: 70px;
+    padding-bottom: 35px;
+    border-radius: 25px;
+}
+.steps h1{
+    font-family: cursive;
+    margin-left: 115px;
+    color: white;
+}
+.steps .step_img{
+    display: flex;
+    margin-top: 75px;
+    margin-left: 25px;
+    margin-left: 90px;
+    
+}
+.steps .step_img img{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px 15px 0 0;
+    margin-left: 30px;
+}
+.steps .step_img h2{
+    color: white;
+    margin-left: 50px;
+    font-size: 75px;
+}
+.info{
+    display: flex;
+}
+.info .step1{
+    background-color: white;
+    margin-left: 245px;
+    width: 300px;
+    border-radius: 0 0 15px 15px;
+    padding: 8px;
+}
+.info .step1 h3{
+    margin-top: 35px;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.info .step1 p{
+    margin-top: 15px;
+    font-size: 22px;
+}
+.info .step2{
+    background-color: white;
+    margin-left: 155px;
+    width: 300px;
+    border-radius: 0 0 15px 15px;
+    padding: 8px;
+}
+.info .step2 h3{
+    margin-top: 35px;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.info .step2 p{
+    margin-top: 15px;
+    font-size: 22px;
+}
+.info .step3{
+    background-color: white;
+    margin-left: 155px;
+    width: 300px;
+    border-radius: 0 0 15px 15px;
+    padding: 8px;
+}
+.info .step3 h3{
+    margin-top: 35px;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.info .step3 p{
+    margin-top: 15px;
+    font-size: 22px;
+}
+.quote {
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    width: 60%;
+    margin-left: 20%;
+}
+.quote h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: cursive;
+}
+.quote h2{
+    text-align: center;
+    margin-top: 50px;
+}
+.signup{
+    background: linear-gradient(to top,rgb(119, 217, 230),white);
+    margin-top: 110px;
+    padding: 20px;
+}
+.signup .mail{
+    margin-left: 28%;
+    margin-top: 80px;
+}
+.signup .mail h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+}
+.signup .mail h3{
+    margin-top: 35px;
+    font-size: 20px;
+    margin-left: 80px;
+    width: 500px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.signup .mail .button1{
+    margin-top: 90px;
+    margin-left: 120px;
+}
+.signup .mail .button1 input{
+    padding: 5px;
+    width: 350px;
+    height: 50px;
+    border-radius: 15px 0 0 15px;
+    font-size: 20px;
+}
+.signup .mail .button1 button{
+    padding: 5px;
+    height: 50px;
+    width: 100px;
+    border-radius: 0 15px 15px 0;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+.signup .mail .button1 button:hover{
+    cursor: pointer;
+    background-color: darkgray;
+}
+.signup .services {
+    display: flex;
+    margin-left: 70%;
+    /* margin-top: 150px; */
+}
+.signup .services a{
+    text-align: right;
+    margin-inline: 20px;
+    color: black;
+    font-size: 18px;
+}
+.signup .services a:hover{
+    text-decoration: none;
+}
+.icons .social_icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+.icons .social_icons a{
+    align-items: center;
+    background-color: #ffffff;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 10px;
+}
+.social_icons a i{
+    font-size: 2em;
+    opacity: 0.9;
+    color: black;
+}
+.social_icons a :hover{
+    color: grey;
+    transition: 0.8s;
+}
